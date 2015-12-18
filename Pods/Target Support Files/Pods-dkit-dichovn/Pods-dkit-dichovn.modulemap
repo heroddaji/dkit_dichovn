@@ -1,0 +1,6 @@
+framework module Pods_dkit_dichovn {
+  umbrella header "Pods-dkit-dichovn-umbrella.h"
+
+  export *
+  module * { export * }
+}

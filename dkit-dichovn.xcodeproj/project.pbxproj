@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236392231C23A0DE00ED5985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236392221C23A0DE00ED5985 /* AppDelegate.swift */; };
+		236392251C23A0DE00ED5985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236392241C23A0DE00ED5985 /* ViewController.swift */; };
+		236392281C23A0DE00ED5985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236392261C23A0DE00ED5985 /* Main.storyboard */; };
+		2363922A1C23A0DE00ED5985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236392291C23A0DE00ED5985 /* Assets.xcassets */; };
+		2363922D1C23A0DE00ED5985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2363922B1C23A0DE00ED5985 /* LaunchScreen.storyboard */; };
+		236392381C23A0DF00ED5985 /* dkit_dichovnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236392371C23A0DF00ED5985 /* dkit_dichovnTests.swift */; };
+		236392431C23A0DF00ED5985 /* dkit_dichovnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236392421C23A0DF00ED5985 /* dkit_dichovnUITests.swift */; };
+		9C55690B081A13AC6053888C /* Pods_dkit_dichovn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E0840683E20351ECFDFE1D /* Pods_dkit_dichovn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		236392341C23A0DF00ED5985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236392171C23A0DE00ED5985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2363921E1C23A0DE00ED5985;
+			remoteInfo = "dkit-dichovn";
+		};
+		2363923F1C23A0DF00ED5985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 236392171C23A0DE00ED5985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2363921E1C23A0DE00ED5985;
+			remoteInfo = "dkit-dichovn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2363921F1C23A0DE00ED5985 /* dkit-dichovn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dkit-dichovn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236392221C23A0DE00ED5985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		236392241C23A0DE00ED5985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		236392271C23A0DE00ED5985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		236392291C23A0DE00ED5985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2363922C1C23A0DE00ED5985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2363922E1C23A0DE00ED5985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236392331C23A0DF00ED5985 /* dkit-dichovnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dkit-dichovnTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236392371C23A0DF00ED5985 /* dkit_dichovnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dkit_dichovnTests.swift; sourceTree = "<group>"; };
+		236392391C23A0DF00ED5985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2363923E1C23A0DF00ED5985 /* dkit-dichovnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dkit-dichovnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		236392421C23A0DF00ED5985 /* dkit_dichovnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dkit_dichovnUITests.swift; sourceTree = "<group>"; };
+		236392441C23A0DF00ED5985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E0840683E20351ECFDFE1D /* Pods_dkit_dichovn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dkit_dichovn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4FA8F1C491226E1BE9BA85 /* Pods-dkit-dichovn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dkit-dichovn.release.xcconfig"; path = "Pods/Target Support Files/Pods-dkit-dichovn/Pods-dkit-dichovn.release.xcconfig"; sourceTree = "<group>"; };
+		F12CB11A5D2C2D749673CDD2 /* Pods-dkit-dichovn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dkit-dichovn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dkit-dichovn/Pods-dkit-dichovn.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2363921C1C23A0DE00ED5985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C55690B081A13AC6053888C /* Pods_dkit_dichovn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236392301C23A0DF00ED5985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2363923B1C23A0DF00ED5985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		236392161C23A0DE00ED5985 = {
+			isa = PBXGroup;
+			children = (
+				236392211C23A0DE00ED5985 /* dkit-dichovn */,
+				236392361C23A0DF00ED5985 /* dkit-dichovnTests */,
+				236392411C23A0DF00ED5985 /* dkit-dichovnUITests */,
+				236392201C23A0DE00ED5985 /* Products */,
+				8B52A8501F6190C1B034DDD2 /* Pods */,
+				EF6291A919043F3B8904AA65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		236392201C23A0DE00ED5985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2363921F1C23A0DE00ED5985 /* dkit-dichovn.app */,
+				236392331C23A0DF00ED5985 /* dkit-dichovnTests.xctest */,
+				2363923E1C23A0DF00ED5985 /* dkit-dichovnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		236392211C23A0DE00ED5985 /* dkit-dichovn */ = {
+			isa = PBXGroup;
+			children = (
+				236392221C23A0DE00ED5985 /* AppDelegate.swift */,
+				236392241C23A0DE00ED5985 /* ViewController.swift */,
+				236392261C23A0DE00ED5985 /* Main.storyboard */,
+				236392291C23A0DE00ED5985 /* Assets.xcassets */,
+				2363922B1C23A0DE00ED5985 /* LaunchScreen.storyboard */,
+				2363922E1C23A0DE00ED5985 /* Info.plist */,
+			);
+			path = "dkit-dichovn";
+			sourceTree = "<group>";
+		};
+		236392361C23A0DF00ED5985 /* dkit-dichovnTests */ = {
+			isa = PBXGroup;
+			children = (
+				236392371C23A0DF00ED5985 /* dkit_dichovnTests.swift */,
+				236392391C23A0DF00ED5985 /* Info.plist */,
+			);
+			path = "dkit-dichovnTests";
+			sourceTree = "<group>";
+		};
+		236392411C23A0DF00ED5985 /* dkit-dichovnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				236392421C23A0DF00ED5985 /* dkit_dichovnUITests.swift */,
+				236392441C23A0DF00ED5985 /* Info.plist */,
+			);
+			path = "dkit-dichovnUITests";
+			sourceTree = "<group>";
+		};
+		8B52A8501F6190C1B034DDD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F12CB11A5D2C2D749673CDD2 /* Pods-dkit-dichovn.debug.xcconfig */,
+				DC4FA8F1C491226E1BE9BA85 /* Pods-dkit-dichovn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6291A919043F3B8904AA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E0840683E20351ECFDFE1D /* Pods_dkit_dichovn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2363921E1C23A0DE00ED5985 /* dkit-dichovn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236392471C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovn" */;
+			buildPhases = (
+				EE00D9CB78F1FB5A24A1A068 /* Check Pods Manifest.lock */,
+				2363921B1C23A0DE00ED5985 /* Sources */,
+				2363921C1C23A0DE00ED5985 /* Frameworks */,
+				2363921D1C23A0DE00ED5985 /* Resources */,
+				E19A5148A38A3BF3AECE06E3 /* Embed Pods Frameworks */,
+				22CF609718149BCE06D8F54A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dkit-dichovn";
+			productName = "dkit-dichovn";
+			productReference = 2363921F1C23A0DE00ED5985 /* dkit-dichovn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		236392321C23A0DF00ED5985 /* dkit-dichovnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363924A1C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovnTests" */;
+			buildPhases = (
+				2363922F1C23A0DF00ED5985 /* Sources */,
+				236392301C23A0DF00ED5985 /* Frameworks */,
+				236392311C23A0DF00ED5985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236392351C23A0DF00ED5985 /* PBXTargetDependency */,
+			);
+			name = "dkit-dichovnTests";
+			productName = "dkit-dichovnTests";
+			productReference = 236392331C23A0DF00ED5985 /* dkit-dichovnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2363923D1C23A0DF00ED5985 /* dkit-dichovnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2363924D1C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovnUITests" */;
+			buildPhases = (
+				2363923A1C23A0DF00ED5985 /* Sources */,
+				2363923B1C23A0DF00ED5985 /* Frameworks */,
+				2363923C1C23A0DF00ED5985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236392401C23A0DF00ED5985 /* PBXTargetDependency */,
+			);
+			name = "dkit-dichovnUITests";
+			productName = "dkit-dichovnUITests";
+			productReference = 2363923E1C23A0DF00ED5985 /* dkit-dichovnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		236392171C23A0DE00ED5985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nevitech;
+				TargetAttributes = {
+					2363921E1C23A0DE00ED5985 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					236392321C23A0DF00ED5985 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2363921E1C23A0DE00ED5985;
+					};
+					2363923D1C23A0DF00ED5985 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2363921E1C23A0DE00ED5985;
+					};
+				};
+			};
+			buildConfigurationList = 2363921A1C23A0DE00ED5985 /* Build configuration list for PBXProject "dkit-dichovn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 236392161C23A0DE00ED5985;
+			productRefGroup = 236392201C23A0DE00ED5985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2363921E1C23A0DE00ED5985 /* dkit-dichovn */,
+				236392321C23A0DF00ED5985 /* dkit-dichovnTests */,
+				2363923D1C23A0DF00ED5985 /* dkit-dichovnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2363921D1C23A0DE00ED5985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2363922D1C23A0DE00ED5985 /* LaunchScreen.storyboard in Resources */,
+				2363922A1C23A0DE00ED5985 /* Assets.xcassets in Resources */,
+				236392281C23A0DE00ED5985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236392311C23A0DF00ED5985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2363923C1C23A0DF00ED5985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CF609718149BCE06D8F54A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dkit-dichovn/Pods-dkit-dichovn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19A5148A38A3BF3AECE06E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dkit-dichovn/Pods-dkit-dichovn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE00D9CB78F1FB5A24A1A068 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2363921B1C23A0DE00ED5985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236392251C23A0DE00ED5985 /* ViewController.swift in Sources */,
+				236392231C23A0DE00ED5985 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2363922F1C23A0DF00ED5985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236392381C23A0DF00ED5985 /* dkit_dichovnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2363923A1C23A0DF00ED5985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236392431C23A0DF00ED5985 /* dkit_dichovnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		236392351C23A0DF00ED5985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2363921E1C23A0DE00ED5985 /* dkit-dichovn */;
+			targetProxy = 236392341C23A0DF00ED5985 /* PBXContainerItemProxy */;
+		};
+		236392401C23A0DF00ED5985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2363921E1C23A0DE00ED5985 /* dkit-dichovn */;
+			targetProxy = 2363923F1C23A0DF00ED5985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		236392261C23A0DE00ED5985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				236392271C23A0DE00ED5985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2363922B1C23A0DE00ED5985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2363922C1C23A0DE00ED5985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		236392451C23A0DF00ED5985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		236392461C23A0DF00ED5985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		236392481C23A0DF00ED5985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12CB11A5D2C2D749673CDD2 /* Pods-dkit-dichovn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dkit-dichovn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		236392491C23A0DF00ED5985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4FA8F1C491226E1BE9BA85 /* Pods-dkit-dichovn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dkit-dichovn/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2363924B1C23A0DF00ED5985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dkit-dichovnTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dkit-dichovn.app/dkit-dichovn";
+			};
+			name = Debug;
+		};
+		2363924C1C23A0DF00ED5985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dkit-dichovnTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dkit-dichovn.app/dkit-dichovn";
+			};
+			name = Release;
+		};
+		2363924E1C23A0DF00ED5985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dkit-dichovnUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dkit-dichovn";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2363924F1C23A0DF00ED5985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dkit-dichovnUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nevitech.dkit-dichovnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dkit-dichovn";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2363921A1C23A0DE00ED5985 /* Build configuration list for PBXProject "dkit-dichovn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236392451C23A0DF00ED5985 /* Debug */,
+				236392461C23A0DF00ED5985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		236392471C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				236392481C23A0DF00ED5985 /* Debug */,
+				236392491C23A0DF00ED5985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2363924A1C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363924B1C23A0DF00ED5985 /* Debug */,
+				2363924C1C23A0DF00ED5985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2363924D1C23A0DF00ED5985 /* Build configuration list for PBXNativeTarget "dkit-dichovnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363924E1C23A0DF00ED5985 /* Debug */,
+				2363924F1C23A0DF00ED5985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 236392171C23A0DE00ED5985 /* Project object */;
+}
